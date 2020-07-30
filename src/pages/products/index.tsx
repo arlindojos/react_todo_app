@@ -1,0 +1,38 @@
+import React, {Component} from 'react';
+import { RouteComponentProps } from 'react-router-dom'
+import api from '../../services/api';
+import './styles.css';
+
+
+type MyProps = RouteComponentProps<{ id?: string }>;
+
+export default class Product extends Component<MyProps> {
+    state = {
+        product: {
+            title: '',
+            description: '',
+            url: ''
+        },
+    }
+    
+    async componentDidMount() {
+        const { id } = this.props.match.params;
+
+        const response = await api.get(`/products/${id}`);
+        
+        this.setState({product: response.data})
+    }
+    render () {
+        const { product } = this.state;
+        return (
+            <div className="product-info">
+                <h1>{product.title}</h1>
+                <p>{product.description}</p>
+
+                <p>
+                    URL: <a href={product.url}>{product.url}</a>
+                </p>
+            </div>
+        )
+    }
+}
