@@ -35,7 +35,7 @@ export default class Main extends Component {
 
         this.loadProducts(pageNumber);
     }
-    nextPage = () =>{
+    nextPage = () => {
         const { page, productInfo } = this.state
         
         if (page === productInfo.pages) return;
