@@ -9,8 +9,9 @@
     <a href="https://pt-br.reactjs.org/">🔗 React</a>
     <a href="https://www.typescriptlang.org/">🔗 Typescript</a>
 </h1>
+<p>Uma aplicação construida para listar trudotos fornecidos pelo cervidor https://rocketseat-node.herokuapp.com/api sem depender do tipo de produto.</p>
 
-A Aplição cárrega os produtos na api da [Rocketseat](https://rocketseat.com.br/) e exibe na tela. Nos protutos temos o butão "Acessar" que no click mostra a descrição do produto 
+Cárrega os produtos na api da [Rocketseat](https://rocketseat.com.br/) e exibe na tela. Nos protutos temos o butão "Acessar" que no click mostra a descrição do produto 
 
 ## ⚙ Instalação e Start
 Certifique-se de que tenha instalado Node.js na sua maquina antes de seguir os passos abaixo.
