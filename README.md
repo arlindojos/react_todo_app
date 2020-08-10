@@ -9,6 +9,12 @@
     <a href="https://pt-br.reactjs.org/">🔗 React</a>
     <a href="https://www.typescriptlang.org/">🔗 Typescript</a>
 </h1>
+
+<p align="center">
+  <img src="https://github.com/arlindojos/react_todo_app/blob/master/src/images/Cap.PNG" alt="App in Desktop" width="47%" />
+  <img src="https://github.com/arlindojos/react_todo_app/blob/master/src/images/sdf.PNG" alt="App in Desktop" width="47%" />
+</p>
+
 <p>Uma aplicação construida para listar trudotos fornecidos pelo cervidor https://rocketseat-node.herokuapp.com/api sem depender do tipo de produto.</p>
 
 Cárrega os produtos na api da [Rocketseat](https://rocketseat.com.br/) e exibe na tela. Nos protutos temos o butão "Acessar" que no click mostra a descrição do produto 
